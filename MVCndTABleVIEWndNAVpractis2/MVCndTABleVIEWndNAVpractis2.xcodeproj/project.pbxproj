@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A78CD5D01EF9B5960094D26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5CF1EF9B5960094D26C /* main.m */; };
+		A78CD5D31EF9B5960094D26C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5D21EF9B5960094D26C /* AppDelegate.m */; };
+		A78CD5D61EF9B5960094D26C /* DealerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5D51EF9B5960094D26C /* DealerListViewController.m */; };
+		A78CD5D91EF9B5960094D26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78CD5D71EF9B5960094D26C /* Main.storyboard */; };
+		A78CD5DB1EF9B5960094D26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78CD5DA1EF9B5960094D26C /* Assets.xcassets */; };
+		A78CD5DE1EF9B5960094D26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78CD5DC1EF9B5960094D26C /* LaunchScreen.storyboard */; };
+		A78CD5EC1EF9BE130094D26C /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = A78CD5EB1EF9BE130094D26C /* Car.m */; };
+		A7DC292A1EF9FEC900AE0B55 /* DealerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DC29291EF9FEC900AE0B55 /* DealerBuilder.m */; };
+		A7DC292D1EFABA6700AE0B55 /* DealerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DC292C1EFABA6700AE0B55 /* DealerDetailsViewController.m */; };
+		A7DC29301EFAD59600AE0B55 /* CarsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DC292F1EFAD59600AE0B55 /* CarsListViewController.m */; };
+		A7DC29341EFAF3C300AE0B55 /* DealerContactDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DC29331EFAF3C300AE0B55 /* DealerContactDetailsViewController.m */; };
+		A7EF15B01EF9C1CC007E1F75 /* ContactInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EF15AF1EF9C1CC007E1F75 /* ContactInfo.m */; };
+		A7EF15B41EF9CA14007E1F75 /* Dealer.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EF15B31EF9CA14007E1F75 /* Dealer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A78CD5CB1EF9B5960094D26C /* MVCndTABleVIEWndNAVpractis2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCndTABleVIEWndNAVpractis2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78CD5CF1EF9B5960094D26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A78CD5D11EF9B5960094D26C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A78CD5D21EF9B5960094D26C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A78CD5D41EF9B5960094D26C /* DealerListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealerListViewController.h; sourceTree = "<group>"; };
+		A78CD5D51EF9B5960094D26C /* DealerListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DealerListViewController.m; sourceTree = "<group>"; };
+		A78CD5D81EF9B5960094D26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A78CD5DA1EF9B5960094D26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A78CD5DD1EF9B5960094D26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A78CD5DF1EF9B5960094D26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78CD5EA1EF9BE130094D26C /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		A78CD5EB1EF9BE130094D26C /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		A7DC29281EF9FEC900AE0B55 /* DealerBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealerBuilder.h; sourceTree = "<group>"; };
+		A7DC29291EF9FEC900AE0B55 /* DealerBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealerBuilder.m; sourceTree = "<group>"; };
+		A7DC292B1EFABA6700AE0B55 /* DealerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealerDetailsViewController.h; sourceTree = "<group>"; };
+		A7DC292C1EFABA6700AE0B55 /* DealerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealerDetailsViewController.m; sourceTree = "<group>"; };
+		A7DC292E1EFAD59600AE0B55 /* CarsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarsListViewController.h; sourceTree = "<group>"; };
+		A7DC292F1EFAD59600AE0B55 /* CarsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarsListViewController.m; sourceTree = "<group>"; };
+		A7DC29321EFAF3C300AE0B55 /* DealerContactDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealerContactDetailsViewController.h; sourceTree = "<group>"; };
+		A7DC29331EFAF3C300AE0B55 /* DealerContactDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealerContactDetailsViewController.m; sourceTree = "<group>"; };
+		A7EF15AE1EF9C1CC007E1F75 /* ContactInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInfo.h; sourceTree = "<group>"; };
+		A7EF15AF1EF9C1CC007E1F75 /* ContactInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInfo.m; sourceTree = "<group>"; };
+		A7EF15B21EF9CA14007E1F75 /* Dealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dealer.h; sourceTree = "<group>"; };
+		A7EF15B31EF9CA14007E1F75 /* Dealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dealer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78CD5C81EF9B5960094D26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78CD5C21EF9B5960094D26C = {
+			isa = PBXGroup;
+			children = (
+				A78CD5CD1EF9B5960094D26C /* MVCndTABleVIEWndNAVpractis2 */,
+				A78CD5CC1EF9B5960094D26C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78CD5CC1EF9B5960094D26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5CB1EF9B5960094D26C /* MVCndTABleVIEWndNAVpractis2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78CD5CD1EF9B5960094D26C /* MVCndTABleVIEWndNAVpractis2 */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC29271EF9FEAB00AE0B55 /* DealerBuilder */,
+				A78CD5E91EF9BDB30094D26C /* Models */,
+				A78CD5E61EF9B5BA0094D26C /* VIewController */,
+				A78CD5E71EF9B5E60094D26C /* Resources */,
+				A78CD5E51EF9B59C0094D26C /* AppDelegate */,
+				A78CD5CE1EF9B5960094D26C /* Supporting Files */,
+			);
+			path = MVCndTABleVIEWndNAVpractis2;
+			sourceTree = "<group>";
+		};
+		A78CD5CE1EF9B5960094D26C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5CF1EF9B5960094D26C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A78CD5E51EF9B59C0094D26C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5D11EF9B5960094D26C /* AppDelegate.h */,
+				A78CD5D21EF9B5960094D26C /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A78CD5E61EF9B5BA0094D26C /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5D51EF9B5960094D26C /* DealerListViewController.m */,
+				A78CD5D41EF9B5960094D26C /* DealerListViewController.h */,
+				A7DC292B1EFABA6700AE0B55 /* DealerDetailsViewController.h */,
+				A7DC292C1EFABA6700AE0B55 /* DealerDetailsViewController.m */,
+				A7DC292E1EFAD59600AE0B55 /* CarsListViewController.h */,
+				A7DC292F1EFAD59600AE0B55 /* CarsListViewController.m */,
+				A7DC29321EFAF3C300AE0B55 /* DealerContactDetailsViewController.h */,
+				A7DC29331EFAF3C300AE0B55 /* DealerContactDetailsViewController.m */,
+			);
+			name = VIewController;
+			sourceTree = "<group>";
+		};
+		A78CD5E71EF9B5E60094D26C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5E81EF9B6510094D26C /* Storyboards */,
+				A78CD5DF1EF9B5960094D26C /* Info.plist */,
+				A78CD5DA1EF9B5960094D26C /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A78CD5E81EF9B6510094D26C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5D71EF9B5960094D26C /* Main.storyboard */,
+				A78CD5DC1EF9B5960094D26C /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		A78CD5E91EF9BDB30094D26C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A78CD5EA1EF9BE130094D26C /* Car.h */,
+				A78CD5EB1EF9BE130094D26C /* Car.m */,
+				A7EF15AE1EF9C1CC007E1F75 /* ContactInfo.h */,
+				A7EF15AF1EF9C1CC007E1F75 /* ContactInfo.m */,
+				A7EF15B21EF9CA14007E1F75 /* Dealer.h */,
+				A7EF15B31EF9CA14007E1F75 /* Dealer.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A7DC29271EF9FEAB00AE0B55 /* DealerBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC29281EF9FEC900AE0B55 /* DealerBuilder.h */,
+				A7DC29291EF9FEC900AE0B55 /* DealerBuilder.m */,
+			);
+			name = DealerBuilder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78CD5CA1EF9B5960094D26C /* MVCndTABleVIEWndNAVpractis2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78CD5E21EF9B5960094D26C /* Build configuration list for PBXNativeTarget "MVCndTABleVIEWndNAVpractis2" */;
+			buildPhases = (
+				A78CD5C71EF9B5960094D26C /* Sources */,
+				A78CD5C81EF9B5960094D26C /* Frameworks */,
+				A78CD5C91EF9B5960094D26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVCndTABleVIEWndNAVpractis2;
+			productName = MVCndTABleVIEWndNAVpractis2;
+			productReference = A78CD5CB1EF9B5960094D26C /* MVCndTABleVIEWndNAVpractis2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78CD5C31EF9B5960094D26C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Padma kumar";
+				TargetAttributes = {
+					A78CD5CA1EF9B5960094D26C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3S7SA97273;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A78CD5C61EF9B5960094D26C /* Build configuration list for PBXProject "MVCndTABleVIEWndNAVpractis2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A78CD5C21EF9B5960094D26C;
+			productRefGroup = A78CD5CC1EF9B5960094D26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78CD5CA1EF9B5960094D26C /* MVCndTABleVIEWndNAVpractis2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78CD5C91EF9B5960094D26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78CD5DE1EF9B5960094D26C /* LaunchScreen.storyboard in Resources */,
+				A78CD5DB1EF9B5960094D26C /* Assets.xcassets in Resources */,
+				A78CD5D91EF9B5960094D26C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78CD5C71EF9B5960094D26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78CD5D61EF9B5960094D26C /* DealerListViewController.m in Sources */,
+				A7DC29301EFAD59600AE0B55 /* CarsListViewController.m in Sources */,
+				A78CD5D31EF9B5960094D26C /* AppDelegate.m in Sources */,
+				A7DC292D1EFABA6700AE0B55 /* DealerDetailsViewController.m in Sources */,
+				A78CD5EC1EF9BE130094D26C /* Car.m in Sources */,
+				A78CD5D01EF9B5960094D26C /* main.m in Sources */,
+				A7DC292A1EF9FEC900AE0B55 /* DealerBuilder.m in Sources */,
+				A7DC29341EFAF3C300AE0B55 /* DealerContactDetailsViewController.m in Sources */,
+				A7EF15B41EF9CA14007E1F75 /* Dealer.m in Sources */,
+				A7EF15B01EF9C1CC007E1F75 /* ContactInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A78CD5D71EF9B5960094D26C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78CD5D81EF9B5960094D26C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A78CD5DC1EF9B5960094D26C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78CD5DD1EF9B5960094D26C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78CD5E01EF9B5960094D26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A78CD5E11EF9B5960094D26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78CD5E31EF9B5960094D26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = MVCndTABleVIEWndNAVpractis2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartWorks.MVCndTABleVIEWndNAVpractis2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A78CD5E41EF9B5960094D26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = MVCndTABleVIEWndNAVpractis2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartWorks.MVCndTABleVIEWndNAVpractis2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78CD5C61EF9B5960094D26C /* Build configuration list for PBXProject "MVCndTABleVIEWndNAVpractis2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78CD5E01EF9B5960094D26C /* Debug */,
+				A78CD5E11EF9B5960094D26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78CD5E21EF9B5960094D26C /* Build configuration list for PBXNativeTarget "MVCndTABleVIEWndNAVpractis2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78CD5E31EF9B5960094D26C /* Debug */,
+				A78CD5E41EF9B5960094D26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78CD5C31EF9B5960094D26C /* Project object */;
+}

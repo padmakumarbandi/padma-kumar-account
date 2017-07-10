@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZxF-jR-8ms">
+                                <rect key="frame" x="192" y="65" width="167" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="D2Y-9M-0cz"/>
+                                    <constraint firstAttribute="height" constant="128" id="OUB-9l-n58"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jo0-UG-5Gp">
+                                <rect key="frame" x="192" y="239" width="167" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EEv-hs-pp7">
+                                <rect key="frame" x="0.0" y="65" width="167" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bFO-cF-xng">
+                                <rect key="frame" x="0.0" y="239" width="167" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZxF-jR-8ms" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3dF-H5-4yI"/>
+                            <constraint firstItem="ZxF-jR-8ms" firstAttribute="leading" secondItem="EEv-hs-pp7" secondAttribute="trailing" constant="25" id="5lC-yQ-R2b"/>
+                            <constraint firstItem="EEv-hs-pp7" firstAttribute="trailing" secondItem="bFO-cF-xng" secondAttribute="trailing" id="Frd-04-aYF"/>
+                            <constraint firstItem="ZxF-jR-8ms" firstAttribute="top" secondItem="EEv-hs-pp7" secondAttribute="top" id="O28-pu-Qd6"/>
+                            <constraint firstItem="EEv-hs-pp7" firstAttribute="leading" secondItem="bFO-cF-xng" secondAttribute="leading" id="VDf-GN-MAC"/>
+                            <constraint firstItem="bFO-cF-xng" firstAttribute="bottom" secondItem="Jo0-UG-5Gp" secondAttribute="bottom" id="Ycf-QB-eRx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bFO-cF-xng" secondAttribute="bottom" constant="300" id="cLw-Q8-f5b"/>
+                            <constraint firstItem="ZxF-jR-8ms" firstAttribute="leading" secondItem="Jo0-UG-5Gp" secondAttribute="leading" id="e21-1D-l4Z"/>
+                            <constraint firstItem="EEv-hs-pp7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ojz-bm-cEU"/>
+                            <constraint firstItem="bFO-cF-xng" firstAttribute="top" secondItem="EEv-hs-pp7" secondAttribute="bottom" constant="46" id="pGq-Pl-3KS"/>
+                            <constraint firstItem="ZxF-jR-8ms" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="t4B-iA-DeS"/>
+                            <constraint firstItem="ZxF-jR-8ms" firstAttribute="bottom" secondItem="EEv-hs-pp7" secondAttribute="bottom" id="uq3-nW-5kQ"/>
+                            <constraint firstItem="bFO-cF-xng" firstAttribute="top" secondItem="Jo0-UG-5Gp" secondAttribute="top" id="v48-dA-cu2"/>
+                            <constraint firstItem="ZxF-jR-8ms" firstAttribute="trailing" secondItem="Jo0-UG-5Gp" secondAttribute="trailing" id="vv5-dP-CA1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imv1" destination="EEv-hs-pp7" id="35x-uv-Tmd"/>
+                        <outlet property="imv2" destination="ZxF-jR-8ms" id="7ls-yJ-syt"/>
+                        <outlet property="imv3" destination="bFO-cF-xng" id="qSL-H3-eXI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

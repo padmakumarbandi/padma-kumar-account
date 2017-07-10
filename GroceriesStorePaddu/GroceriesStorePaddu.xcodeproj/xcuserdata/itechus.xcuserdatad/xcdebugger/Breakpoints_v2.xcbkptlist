@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GroceriesStorePaddu/Spices.h"
+            timestampString = "519765135.293462"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Spices Sp_name]"
+                  moduleName = "GroceriesStorePaddu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itechus/Desktop/padma%20kumar/GroceriesStorePaddu/GroceriesStorePaddu/Spices.h"
+                  timestampString = "519785942.986544"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Spices setSp_name:]"
+                  moduleName = "GroceriesStorePaddu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itechus/Desktop/padma%20kumar/GroceriesStorePaddu/GroceriesStorePaddu/Spices.h"
+                  timestampString = "519785942.989631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

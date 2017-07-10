@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A702855E1EEE08A400DAF753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A702855D1EEE08A400DAF753 /* main.m */; };
+		A70285611EEE08A400DAF753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A70285601EEE08A400DAF753 /* AppDelegate.m */; };
+		A70285641EEE08A400DAF753 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70285631EEE08A400DAF753 /* ViewController.m */; };
+		A70285671EEE08A400DAF753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70285651EEE08A400DAF753 /* Main.storyboard */; };
+		A70285691EEE08A400DAF753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70285681EEE08A400DAF753 /* Assets.xcassets */; };
+		A702856C1EEE08A400DAF753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A702856A1EEE08A400DAF753 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A70285591EEE08A400DAF753 /* TablVwClsPractis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TablVwClsPractis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A702855D1EEE08A400DAF753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A702855F1EEE08A400DAF753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A70285601EEE08A400DAF753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A70285621EEE08A400DAF753 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A70285631EEE08A400DAF753 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A70285661EEE08A400DAF753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A70285681EEE08A400DAF753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A702856B1EEE08A400DAF753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A702856D1EEE08A400DAF753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A70285561EEE08A400DAF753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70285501EEE08A400DAF753 = {
+			isa = PBXGroup;
+			children = (
+				A702855B1EEE08A400DAF753 /* TablVwClsPractis */,
+				A702855A1EEE08A400DAF753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A702855A1EEE08A400DAF753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A70285591EEE08A400DAF753 /* TablVwClsPractis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A702855B1EEE08A400DAF753 /* TablVwClsPractis */ = {
+			isa = PBXGroup;
+			children = (
+				A702855F1EEE08A400DAF753 /* AppDelegate.h */,
+				A70285601EEE08A400DAF753 /* AppDelegate.m */,
+				A70285621EEE08A400DAF753 /* ViewController.h */,
+				A70285631EEE08A400DAF753 /* ViewController.m */,
+				A70285651EEE08A400DAF753 /* Main.storyboard */,
+				A70285681EEE08A400DAF753 /* Assets.xcassets */,
+				A702856A1EEE08A400DAF753 /* LaunchScreen.storyboard */,
+				A702856D1EEE08A400DAF753 /* Info.plist */,
+				A702855C1EEE08A400DAF753 /* Supporting Files */,
+			);
+			path = TablVwClsPractis;
+			sourceTree = "<group>";
+		};
+		A702855C1EEE08A400DAF753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A702855D1EEE08A400DAF753 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A70285581EEE08A400DAF753 /* TablVwClsPractis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70285701EEE08A400DAF753 /* Build configuration list for PBXNativeTarget "TablVwClsPractis" */;
+			buildPhases = (
+				A70285551EEE08A400DAF753 /* Sources */,
+				A70285561EEE08A400DAF753 /* Frameworks */,
+				A70285571EEE08A400DAF753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TablVwClsPractis;
+			productName = TablVwClsPractis;
+			productReference = A70285591EEE08A400DAF753 /* TablVwClsPractis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70285511EEE08A400DAF753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Padma kumar";
+				TargetAttributes = {
+					A70285581EEE08A400DAF753 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A70285541EEE08A400DAF753 /* Build configuration list for PBXProject "TablVwClsPractis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A70285501EEE08A400DAF753;
+			productRefGroup = A702855A1EEE08A400DAF753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A70285581EEE08A400DAF753 /* TablVwClsPractis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70285571EEE08A400DAF753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A702856C1EEE08A400DAF753 /* LaunchScreen.storyboard in Resources */,
+				A70285691EEE08A400DAF753 /* Assets.xcassets in Resources */,
+				A70285671EEE08A400DAF753 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70285551EEE08A400DAF753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70285641EEE08A400DAF753 /* ViewController.m in Sources */,
+				A70285611EEE08A400DAF753 /* AppDelegate.m in Sources */,
+				A702855E1EEE08A400DAF753 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A70285651EEE08A400DAF753 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A70285661EEE08A400DAF753 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A702856A1EEE08A400DAF753 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A702856B1EEE08A400DAF753 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A702856E1EEE08A400DAF753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A702856F1EEE08A400DAF753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A70285711EEE08A400DAF753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TablVwClsPractis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartWorks.TablVwClsPractis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A70285721EEE08A400DAF753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TablVwClsPractis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartWorks.TablVwClsPractis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70285541EEE08A400DAF753 /* Build configuration list for PBXProject "TablVwClsPractis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A702856E1EEE08A400DAF753 /* Debug */,
+				A702856F1EEE08A400DAF753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70285701EEE08A400DAF753 /* Build configuration list for PBXNativeTarget "TablVwClsPractis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70285711EEE08A400DAF753 /* Debug */,
+				A70285721EEE08A400DAF753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A70285511EEE08A400DAF753 /* Project object */;
+}

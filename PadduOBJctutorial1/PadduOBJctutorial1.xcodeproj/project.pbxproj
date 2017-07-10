@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73AA0161EE49E9D004A8B10 /* TRansportsystem.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AA0151EE49E9D004A8B10 /* TRansportsystem.m */; };
+		A73AA0191EE591FD004A8B10 /* subclasoftransportation.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AA0181EE591FD004A8B10 /* subclasoftransportation.m */; };
+		A73AA01C1EE5A35A004A8B10 /* TRansportsystem+NEWtravelclasin.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AA01B1EE5A35A004A8B10 /* TRansportsystem+NEWtravelclasin.m */; };
+		A73AA01F1EE5A9CE004A8B10 /* TRansportsystem+pk.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AA01E1EE5A9CE004A8B10 /* TRansportsystem+pk.m */; };
+		A7C6FD2A1EE1F52900A1CCE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C6FD291EE1F52900A1CCE0 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7C6FD241EE1F52900A1CCE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A73AA0141EE49E9D004A8B10 /* TRansportsystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRansportsystem.h; sourceTree = "<group>"; };
+		A73AA0151EE49E9D004A8B10 /* TRansportsystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRansportsystem.m; sourceTree = "<group>"; };
+		A73AA0171EE591FD004A8B10 /* subclasoftransportation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subclasoftransportation.h; sourceTree = "<group>"; };
+		A73AA0181EE591FD004A8B10 /* subclasoftransportation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subclasoftransportation.m; sourceTree = "<group>"; };
+		A73AA01A1EE5A35A004A8B10 /* TRansportsystem+NEWtravelclasin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TRansportsystem+NEWtravelclasin.h"; sourceTree = "<group>"; };
+		A73AA01B1EE5A35A004A8B10 /* TRansportsystem+NEWtravelclasin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TRansportsystem+NEWtravelclasin.m"; sourceTree = "<group>"; };
+		A73AA01D1EE5A9CE004A8B10 /* TRansportsystem+pk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TRansportsystem+pk.h"; sourceTree = "<group>"; };
+		A73AA01E1EE5A9CE004A8B10 /* TRansportsystem+pk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TRansportsystem+pk.m"; sourceTree = "<group>"; };
+		A73AA0201EE5B06E004A8B10 /* BikeRace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeRace.h; sourceTree = "<group>"; };
+		A7C6FD261EE1F52900A1CCE0 /* PadduOBJctutorial1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PadduOBJctutorial1; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C6FD291EE1F52900A1CCE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7C6FD231EE1F52900A1CCE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7C6FD1D1EE1F52900A1CCE0 = {
+			isa = PBXGroup;
+			children = (
+				A7C6FD281EE1F52900A1CCE0 /* PadduOBJctutorial1 */,
+				A7C6FD271EE1F52900A1CCE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7C6FD271EE1F52900A1CCE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7C6FD261EE1F52900A1CCE0 /* PadduOBJctutorial1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7C6FD281EE1F52900A1CCE0 /* PadduOBJctutorial1 */ = {
+			isa = PBXGroup;
+			children = (
+				A7C6FD291EE1F52900A1CCE0 /* main.m */,
+				A73AA0141EE49E9D004A8B10 /* TRansportsystem.h */,
+				A73AA0151EE49E9D004A8B10 /* TRansportsystem.m */,
+				A73AA0171EE591FD004A8B10 /* subclasoftransportation.h */,
+				A73AA0181EE591FD004A8B10 /* subclasoftransportation.m */,
+				A73AA01A1EE5A35A004A8B10 /* TRansportsystem+NEWtravelclasin.h */,
+				A73AA01B1EE5A35A004A8B10 /* TRansportsystem+NEWtravelclasin.m */,
+				A73AA01D1EE5A9CE004A8B10 /* TRansportsystem+pk.h */,
+				A73AA01E1EE5A9CE004A8B10 /* TRansportsystem+pk.m */,
+				A73AA0201EE5B06E004A8B10 /* BikeRace.h */,
+			);
+			path = PadduOBJctutorial1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7C6FD251EE1F52900A1CCE0 /* PadduOBJctutorial1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C6FD2D1EE1F52900A1CCE0 /* Build configuration list for PBXNativeTarget "PadduOBJctutorial1" */;
+			buildPhases = (
+				A7C6FD221EE1F52900A1CCE0 /* Sources */,
+				A7C6FD231EE1F52900A1CCE0 /* Frameworks */,
+				A7C6FD241EE1F52900A1CCE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PadduOBJctutorial1;
+			productName = PadduOBJctutorial1;
+			productReference = A7C6FD261EE1F52900A1CCE0 /* PadduOBJctutorial1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7C6FD1E1EE1F52900A1CCE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = PK;
+				TargetAttributes = {
+					A7C6FD251EE1F52900A1CCE0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7C6FD211EE1F52900A1CCE0 /* Build configuration list for PBXProject "PadduOBJctutorial1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7C6FD1D1EE1F52900A1CCE0;
+			productRefGroup = A7C6FD271EE1F52900A1CCE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7C6FD251EE1F52900A1CCE0 /* PadduOBJctutorial1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7C6FD221EE1F52900A1CCE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73AA0161EE49E9D004A8B10 /* TRansportsystem.m in Sources */,
+				A73AA01C1EE5A35A004A8B10 /* TRansportsystem+NEWtravelclasin.m in Sources */,
+				A73AA0191EE591FD004A8B10 /* subclasoftransportation.m in Sources */,
+				A73AA01F1EE5A9CE004A8B10 /* TRansportsystem+pk.m in Sources */,
+				A7C6FD2A1EE1F52900A1CCE0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7C6FD2B1EE1F52900A1CCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7C6FD2C1EE1F52900A1CCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7C6FD2E1EE1F52900A1CCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7C6FD2F1EE1F52900A1CCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7C6FD211EE1F52900A1CCE0 /* Build configuration list for PBXProject "PadduOBJctutorial1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C6FD2B1EE1F52900A1CCE0 /* Debug */,
+				A7C6FD2C1EE1F52900A1CCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C6FD2D1EE1F52900A1CCE0 /* Build configuration list for PBXNativeTarget "PadduOBJctutorial1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C6FD2E1EE1F52900A1CCE0 /* Debug */,
+				A7C6FD2F1EE1F52900A1CCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7C6FD1E1EE1F52900A1CCE0 /* Project object */;
+}

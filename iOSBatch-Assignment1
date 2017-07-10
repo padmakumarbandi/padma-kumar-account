@@ -1,0 +1,75 @@
+Assignment - 1
+
+All most 95% of the required work is covered in our training, I added extra 5% of extra work for which you have to refer documentation.
+Let me know if you have any questions.
+
+Theory
+
+1) List out few iOS apps that you use most? And also list why you like the app most?
+2) What is a Native app? Give some examples?
+3) What are two programatic paradigms we discussed? Give examples?
+4) What does `NS` stands for?
+5) Explain the following
+	1) Class
+	2) Object
+	3) Parameter
+	4) Function
+	5) Value Type & Reference Type
+
+6) Explain the difference between COCOA & COCOA-TOUCH Frameworks?
+7) What are different layers in COCOA_TOUCH Framework? Explain each layer with examples?
+8) Explain the lifecycle of an iOS APPlication with diagram?
+9) Explain the following classes
+	1) NSObject
+	2) NSArray
+	3) NSDictionary
+	4) NSString
+	5) NSSet
+
+10) List out some commonly used UIElements?
+
+11) Explain about AppDelegate file? And What is the importance of AppDelegate?
+12) List out some methods available in AppDelegate? And explain why they are used?
+
+
+Project
+
+1) Create a new Single View application and name it as `Assignment1` with language Objective-C.
+2) Organize the project files into different groups.
+3) Open `AppDelegate.m` file and inside `application:didFinishLaunchingWithOptins:` method do the following
+	1) Create the following immutable objects
+		1) NSString
+			1) Create a two new strings.(in two ways as we discussed)
+			2) Print out the length of the strings
+			3) Print the strings in uppercase and lowercase
+			4) Compare strings and print out if they are equal or not equal
+			5) Combine two strings
+			6) Create a new string `LastName,FirstName`. Divide this string into two strings using comma as delimiter.
+			7) Create a new string `Hello How are you?`. Find the substring `How` from the string.
+			8) Using the above string replace `How are you?` with `World`. So the final string will be `Hello World`.
+			9) Format the strings and print them.
+						
+		2) NSArray
+			1) Create two arrays with objects. First array with `numbers`(1,2,3,4,5,6,7,8,9) and 
+				second one with `strings` (apple, ball, cat, dog, egg, fan, grapes)
+			2) From the numbers array find if number `8` exists or not.
+			3) From the strings array find the index of `apple` string.
+			4) Create two identical arrays, use appropriate method to Compare arrays and find out if they are same or different.
+			5) Using the arrays above derive a new array.
+			6) Loop through the arrays and prints values
+		3) NSDictionary
+			1) Use dictionaries and repeat the Array steps.
+		4) NSSet
+			1) Use sets and repeat the Array steps.
+			
+	2) For Mutable Objects refer to documentation and do interesting things (your choice).
+
+4) Demonstrate the concept of inheritance by creating Parent and Child classes.
+5) Create appropriate properties and Instance variables for parent and child classes.
+6) Create default initializers and designated initializers to set values for IVar's created above.
+7) Demonstrate the concept of method overriding between Parent and Child classes.
+8) Create objects for Parent and Child classes to access the Ivar's, Properties and methods (use `viewDidLoad:` method in ViewController for creating objects).
+   Refer to the projects & Videos uploaded on to drive.
+
+					
+			
