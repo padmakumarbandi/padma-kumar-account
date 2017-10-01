@@ -21,6 +21,6 @@ class ViewController: UIViewController {
     }
 
 //Hi its going goood
-    
+//    var avarialble
 }
 
