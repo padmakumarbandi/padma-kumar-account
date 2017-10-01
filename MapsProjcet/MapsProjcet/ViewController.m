@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES]; 
 //    MKCoordinateRegion region1;
 //    MKCoordinateSpan span1;
 //    span1.latitudeDelta = 0.05;

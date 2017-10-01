@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A726AF5E1F2527EA00647F1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A726AF5D1F2527EA00647F1D /* main.m */; };
+		A726AF611F2527EA00647F1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A726AF601F2527EA00647F1D /* AppDelegate.m */; };
+		A726AF641F2527EA00647F1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A726AF631F2527EA00647F1D /* ViewController.m */; };
+		A726AF671F2527EA00647F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A726AF651F2527EA00647F1D /* Main.storyboard */; };
+		A726AF691F2527EA00647F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A726AF681F2527EA00647F1D /* Assets.xcassets */; };
+		A726AF6C1F2527EA00647F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A726AF6A1F2527EA00647F1D /* LaunchScreen.storyboard */; };
+		A726AF761F252C4B00647F1D /* Dicerequirements.m in Sources */ = {isa = PBXBuildFile; fileRef = A726AF751F252C4B00647F1D /* Dicerequirements.m */; };
+		A726AF7C1F252F0800647F1D /* DiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A726AF7B1F252F0800647F1D /* DiceView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A726AF591F2527EA00647F1D /* DiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A726AF5D1F2527EA00647F1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A726AF5F1F2527EA00647F1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A726AF601F2527EA00647F1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A726AF621F2527EA00647F1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A726AF631F2527EA00647F1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A726AF661F2527EA00647F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A726AF681F2527EA00647F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A726AF6B1F2527EA00647F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A726AF6D1F2527EA00647F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A726AF741F252C4B00647F1D /* Dicerequirements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dicerequirements.h; sourceTree = "<group>"; };
+		A726AF751F252C4B00647F1D /* Dicerequirements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dicerequirements.m; sourceTree = "<group>"; };
+		A726AF7A1F252F0800647F1D /* DiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceView.h; sourceTree = "<group>"; };
+		A726AF7B1F252F0800647F1D /* DiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A726AF561F2527EA00647F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A726AF501F2527EA00647F1D = {
+			isa = PBXGroup;
+			children = (
+				A726AF5B1F2527EA00647F1D /* DiceApp */,
+				A726AF5A1F2527EA00647F1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A726AF5A1F2527EA00647F1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A726AF591F2527EA00647F1D /* DiceApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A726AF5B1F2527EA00647F1D /* DiceApp */ = {
+			isa = PBXGroup;
+			children = (
+				A726AF731F2527F600647F1D /* model */,
+				A726AF5C1F2527EA00647F1D /* Supporting Files */,
+			);
+			path = DiceApp;
+			sourceTree = "<group>";
+		};
+		A726AF5C1F2527EA00647F1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A726AF771F252C6700647F1D /* views */,
+				A726AF781F252E9C00647F1D /* New Group */,
+				A726AF791F252ECF00647F1D /* source */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A726AF731F2527F600647F1D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A726AF741F252C4B00647F1D /* Dicerequirements.h */,
+				A726AF751F252C4B00647F1D /* Dicerequirements.m */,
+				A726AF7A1F252F0800647F1D /* DiceView.h */,
+				A726AF7B1F252F0800647F1D /* DiceView.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A726AF771F252C6700647F1D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A726AF621F2527EA00647F1D /* ViewController.h */,
+				A726AF631F2527EA00647F1D /* ViewController.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		A726AF781F252E9C00647F1D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				A726AF5F1F2527EA00647F1D /* AppDelegate.h */,
+				A726AF601F2527EA00647F1D /* AppDelegate.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		A726AF791F252ECF00647F1D /* source */ = {
+			isa = PBXGroup;
+			children = (
+				A726AF6A1F2527EA00647F1D /* LaunchScreen.storyboard */,
+				A726AF6D1F2527EA00647F1D /* Info.plist */,
+				A726AF5D1F2527EA00647F1D /* main.m */,
+				A726AF651F2527EA00647F1D /* Main.storyboard */,
+				A726AF681F2527EA00647F1D /* Assets.xcassets */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A726AF581F2527EA00647F1D /* DiceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A726AF701F2527EA00647F1D /* Build configuration list for PBXNativeTarget "DiceApp" */;
+			buildPhases = (
+				A726AF551F2527EA00647F1D /* Sources */,
+				A726AF561F2527EA00647F1D /* Frameworks */,
+				A726AF571F2527EA00647F1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceApp;
+			productName = DiceApp;
+			productReference = A726AF591F2527EA00647F1D /* DiceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A726AF511F2527EA00647F1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Padma kumar";
+				TargetAttributes = {
+					A726AF581F2527EA00647F1D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3S7SA97273;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A726AF541F2527EA00647F1D /* Build configuration list for PBXProject "DiceApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A726AF501F2527EA00647F1D;
+			productRefGroup = A726AF5A1F2527EA00647F1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A726AF581F2527EA00647F1D /* DiceApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A726AF571F2527EA00647F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A726AF6C1F2527EA00647F1D /* LaunchScreen.storyboard in Resources */,
+				A726AF691F2527EA00647F1D /* Assets.xcassets in Resources */,
+				A726AF671F2527EA00647F1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A726AF551F2527EA00647F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A726AF641F2527EA00647F1D /* ViewController.m in Sources */,
+				A726AF611F2527EA00647F1D /* AppDelegate.m in Sources */,
+				A726AF7C1F252F0800647F1D /* DiceView.m in Sources */,
+				A726AF761F252C4B00647F1D /* Dicerequirements.m in Sources */,
+				A726AF5E1F2527EA00647F1D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A726AF651F2527EA00647F1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A726AF661F2527EA00647F1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A726AF6A1F2527EA00647F1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A726AF6B1F2527EA00647F1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A726AF6E1F2527EA00647F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A726AF6F1F2527EA00647F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A726AF711F2527EA00647F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = DiceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartWorks.DiceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A726AF721F2527EA00647F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = DiceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartWorks.DiceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A726AF541F2527EA00647F1D /* Build configuration list for PBXProject "DiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A726AF6E1F2527EA00647F1D /* Debug */,
+				A726AF6F1F2527EA00647F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A726AF701F2527EA00647F1D /* Build configuration list for PBXNativeTarget "DiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A726AF711F2527EA00647F1D /* Debug */,
+				A726AF721F2527EA00647F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A726AF511F2527EA00647F1D /* Project object */;
+}

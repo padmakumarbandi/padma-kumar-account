@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "08439CE3359048B58B74943E21A5EA906FE30AD0" : 9223372036854775807,
+    "6F16D4B35FF751E490769DAACEF0A23A9D022995" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "86F22215-FF7E-4BB9-A06C-9814C0CA6AF4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "08439CE3359048B58B74943E21A5EA906FE30AD0" : "",
+    "6F16D4B35FF751E490769DAACEF0A23A9D022995" : "Pokemongo\/Pokemongo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pokemongo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pokemongo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/padmakumarbandi\/my-projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "08439CE3359048B58B74943E21A5EA906FE30AD0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/padmakumarbandi\/Pokemongopaddu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F16D4B35FF751E490769DAACEF0A23A9D022995"
+    }
+  ]
+}

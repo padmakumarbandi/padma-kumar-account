@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7D1F6411F18126F00BCDB00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D1F6401F18126F00BCDB00 /* main.m */; };
+		A7D1F6441F18126F00BCDB00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D1F6431F18126F00BCDB00 /* AppDelegate.m */; };
+		A7D1F6471F18126F00BCDB00 /* DropBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D1F6461F18126F00BCDB00 /* DropBallViewController.m */; };
+		A7D1F64A1F18126F00BCDB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D1F6481F18126F00BCDB00 /* Main.storyboard */; };
+		A7D1F64C1F18126F00BCDB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D1F64B1F18126F00BCDB00 /* Assets.xcassets */; };
+		A7D1F64F1F18126F00BCDB00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D1F64D1F18126F00BCDB00 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7D1F63C1F18126F00BCDB00 /* DropBallsAnimatColiGraphicStanford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropBallsAnimatColiGraphicStanford.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D1F6401F18126F00BCDB00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7D1F6421F18126F00BCDB00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7D1F6431F18126F00BCDB00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7D1F6451F18126F00BCDB00 /* DropBallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropBallViewController.h; sourceTree = "<group>"; };
+		A7D1F6461F18126F00BCDB00 /* DropBallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropBallViewController.m; sourceTree = "<group>"; };
+		A7D1F6491F18126F00BCDB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7D1F64B1F18126F00BCDB00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7D1F64E1F18126F00BCDB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7D1F6501F18126F00BCDB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7D1F6391F18126F00BCDB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7D1F6331F18126F00BCDB00 = {
+			isa = PBXGroup;
+			children = (
+				A7D1F63E1F18126F00BCDB00 /* DropBallsAnimatColiGraphicStanford */,
+				A7D1F63D1F18126F00BCDB00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7D1F63D1F18126F00BCDB00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7D1F63C1F18126F00BCDB00 /* DropBallsAnimatColiGraphicStanford.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7D1F63E1F18126F00BCDB00 /* DropBallsAnimatColiGraphicStanford */ = {
+			isa = PBXGroup;
+			children = (
+				A7D1F6561F1812A800BCDB00 /* Models */,
+				A7D1F6481F18126F00BCDB00 /* Main.storyboard */,
+				A7D1F6461F18126F00BCDB00 /* DropBallViewController.m */,
+				A7D1F6451F18126F00BCDB00 /* DropBallViewController.h */,
+				A7D1F64B1F18126F00BCDB00 /* Assets.xcassets */,
+				A7D1F64D1F18126F00BCDB00 /* LaunchScreen.storyboard */,
+				A7D1F6501F18126F00BCDB00 /* Info.plist */,
+				A7D1F63F1F18126F00BCDB00 /* Supporting Files */,
+			);
+			path = DropBallsAnimatColiGraphicStanford;
+			sourceTree = "<group>";
+		};
+		A7D1F63F1F18126F00BCDB00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7D1F6421F18126F00BCDB00 /* AppDelegate.h */,
+				A7D1F6431F18126F00BCDB00 /* AppDelegate.m */,
+				A7D1F6401F18126F00BCDB00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7D1F6561F1812A800BCDB00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7D1F63B1F18126F00BCDB00 /* DropBallsAnimatColiGraphicStanford */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D1F6531F18126F00BCDB00 /* Build configuration list for PBXNativeTarget "DropBallsAnimatColiGraphicStanford" */;
+			buildPhases = (
+				A7D1F6381F18126F00BCDB00 /* Sources */,
+				A7D1F6391F18126F00BCDB00 /* Frameworks */,
+				A7D1F63A1F18126F00BCDB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropBallsAnimatColiGraphicStanford;
+			productName = DropBallsAnimatColiGraphicStanford;
+			productReference = A7D1F63C1F18126F00BCDB00 /* DropBallsAnimatColiGraphicStanford.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7D1F6341F18126F00BCDB00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Padma kumar";
+				TargetAttributes = {
+					A7D1F63B1F18126F00BCDB00 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3S7SA97273;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7D1F6371F18126F00BCDB00 /* Build configuration list for PBXProject "DropBallsAnimatColiGraphicStanford" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7D1F6331F18126F00BCDB00;
+			productRefGroup = A7D1F63D1F18126F00BCDB00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7D1F63B1F18126F00BCDB00 /* DropBallsAnimatColiGraphicStanford */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7D1F63A1F18126F00BCDB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D1F64F1F18126F00BCDB00 /* LaunchScreen.storyboard in Resources */,
+				A7D1F64C1F18126F00BCDB00 /* Assets.xcassets in Resources */,
+				A7D1F64A1F18126F00BCDB00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7D1F6381F18126F00BCDB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D1F6471F18126F00BCDB00 /* DropBallViewController.m in Sources */,
+				A7D1F6441F18126F00BCDB00 /* AppDelegate.m in Sources */,
+				A7D1F6411F18126F00BCDB00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7D1F6481F18126F00BCDB00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D1F6491F18126F00BCDB00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7D1F64D1F18126F00BCDB00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D1F64E1F18126F00BCDB00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7D1F6511F18126F00BCDB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7D1F6521F18126F00BCDB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7D1F6541F18126F00BCDB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = DropBallsAnimatColiGraphicStanford/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartWorks.DropBallsAnimatColiGraphicStanford;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7D1F6551F18126F00BCDB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = DropBallsAnimatColiGraphicStanford/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartWorks.DropBallsAnimatColiGraphicStanford;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7D1F6371F18126F00BCDB00 /* Build configuration list for PBXProject "DropBallsAnimatColiGraphicStanford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D1F6511F18126F00BCDB00 /* Debug */,
+				A7D1F6521F18126F00BCDB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D1F6531F18126F00BCDB00 /* Build configuration list for PBXNativeTarget "DropBallsAnimatColiGraphicStanford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D1F6541F18126F00BCDB00 /* Debug */,
+				A7D1F6551F18126F00BCDB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7D1F6341F18126F00BCDB00 /* Project object */;
+}

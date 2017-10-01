@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27038BDB6C4250478C4653A3 /* Pods_SocialMediasimilarapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E66C261727A8C36790E55A2 /* Pods_SocialMediasimilarapp.framework */; };
+		A725CC7A1F3023ED00E04846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725CC791F3023ED00E04846 /* AppDelegate.swift */; };
+		A725CC7C1F3023ED00E04846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725CC7B1F3023ED00E04846 /* ViewController.swift */; };
+		A725CC7F1F3023ED00E04846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A725CC7D1F3023ED00E04846 /* Main.storyboard */; };
+		A725CC811F3023ED00E04846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A725CC801F3023ED00E04846 /* Assets.xcassets */; };
+		A725CC841F3023ED00E04846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A725CC821F3023ED00E04846 /* LaunchScreen.storyboard */; };
+		A725CC8C1F30291A00E04846 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A725CC8B1F30291A00E04846 /* GoogleService-Info.plist */; };
+		A725CC901F30DEB700E04846 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725CC8F1F30DEB700E04846 /* UserVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B197AA42961C9928EC1D9EC /* Pods-SocialMediasimilarapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediasimilarapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediasimilarapp/Pods-SocialMediasimilarapp.release.xcconfig"; sourceTree = "<group>"; };
+		7E66C261727A8C36790E55A2 /* Pods_SocialMediasimilarapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMediasimilarapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A725CC761F3023ED00E04846 /* SocialMediasimilarapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMediasimilarapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A725CC791F3023ED00E04846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A725CC7B1F3023ED00E04846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A725CC7E1F3023ED00E04846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A725CC801F3023ED00E04846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A725CC831F3023ED00E04846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A725CC851F3023ED00E04846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A725CC8B1F30291A00E04846 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A725CC8F1F30DEB700E04846 /* UserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		CD4C9E85B25038CE2C8567CE /* Pods-SocialMediasimilarapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediasimilarapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialMediasimilarapp/Pods-SocialMediasimilarapp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A725CC731F3023ED00E04846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27038BDB6C4250478C4653A3 /* Pods_SocialMediasimilarapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F8CCD55A0F51C82A918782E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E66C261727A8C36790E55A2 /* Pods_SocialMediasimilarapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9104C91EFA5B14EC5A51E7CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD4C9E85B25038CE2C8567CE /* Pods-SocialMediasimilarapp.debug.xcconfig */,
+				6B197AA42961C9928EC1D9EC /* Pods-SocialMediasimilarapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A725CC6D1F3023ED00E04846 = {
+			isa = PBXGroup;
+			children = (
+				A725CC781F3023ED00E04846 /* SocialMediasimilarapp */,
+				A725CC771F3023ED00E04846 /* Products */,
+				9104C91EFA5B14EC5A51E7CF /* Pods */,
+				7F8CCD55A0F51C82A918782E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A725CC771F3023ED00E04846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A725CC761F3023ED00E04846 /* SocialMediasimilarapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A725CC781F3023ED00E04846 /* SocialMediasimilarapp */ = {
+			isa = PBXGroup;
+			children = (
+				A725CC791F3023ED00E04846 /* AppDelegate.swift */,
+				A725CC7B1F3023ED00E04846 /* ViewController.swift */,
+				A725CC8F1F30DEB700E04846 /* UserVC.swift */,
+				A725CC7D1F3023ED00E04846 /* Main.storyboard */,
+				A725CC801F3023ED00E04846 /* Assets.xcassets */,
+				A725CC821F3023ED00E04846 /* LaunchScreen.storyboard */,
+				A725CC851F3023ED00E04846 /* Info.plist */,
+				A725CC8B1F30291A00E04846 /* GoogleService-Info.plist */,
+			);
+			path = SocialMediasimilarapp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A725CC751F3023ED00E04846 /* SocialMediasimilarapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A725CC881F3023ED00E04846 /* Build configuration list for PBXNativeTarget "SocialMediasimilarapp" */;
+			buildPhases = (
+				B169B200C53FB6E7C42D70AF /* [CP] Check Pods Manifest.lock */,
+				A725CC721F3023ED00E04846 /* Sources */,
+				A725CC731F3023ED00E04846 /* Frameworks */,
+				A725CC741F3023ED00E04846 /* Resources */,
+				D901EDFCC6350B4A37B444E4 /* [CP] Embed Pods Frameworks */,
+				4C843F2A946E1D024E5AC96F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialMediasimilarapp;
+			productName = SocialMediasimilarapp;
+			productReference = A725CC761F3023ED00E04846 /* SocialMediasimilarapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A725CC6E1F3023ED00E04846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Padma kumar";
+				TargetAttributes = {
+					A725CC751F3023ED00E04846 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3S7SA97273;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A725CC711F3023ED00E04846 /* Build configuration list for PBXProject "SocialMediasimilarapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A725CC6D1F3023ED00E04846;
+			productRefGroup = A725CC771F3023ED00E04846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A725CC751F3023ED00E04846 /* SocialMediasimilarapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A725CC741F3023ED00E04846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A725CC841F3023ED00E04846 /* LaunchScreen.storyboard in Resources */,
+				A725CC8C1F30291A00E04846 /* GoogleService-Info.plist in Resources */,
+				A725CC811F3023ED00E04846 /* Assets.xcassets in Resources */,
+				A725CC7F1F3023ED00E04846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C843F2A946E1D024E5AC96F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialMediasimilarapp/Pods-SocialMediasimilarapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B169B200C53FB6E7C42D70AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D901EDFCC6350B4A37B444E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialMediasimilarapp/Pods-SocialMediasimilarapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A725CC721F3023ED00E04846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A725CC7C1F3023ED00E04846 /* ViewController.swift in Sources */,
+				A725CC901F30DEB700E04846 /* UserVC.swift in Sources */,
+				A725CC7A1F3023ED00E04846 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A725CC7D1F3023ED00E04846 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A725CC7E1F3023ED00E04846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A725CC821F3023ED00E04846 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A725CC831F3023ED00E04846 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A725CC861F3023ED00E04846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A725CC871F3023ED00E04846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A725CC891F3023ED00E04846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4C9E85B25038CE2C8567CE /* Pods-SocialMediasimilarapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = SocialMediasimilarapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartWorks.SocialMediasimilarapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A725CC8A1F3023ED00E04846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B197AA42961C9928EC1D9EC /* Pods-SocialMediasimilarapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = SocialMediasimilarapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmartWorks.SocialMediasimilarapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A725CC711F3023ED00E04846 /* Build configuration list for PBXProject "SocialMediasimilarapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A725CC861F3023ED00E04846 /* Debug */,
+				A725CC871F3023ED00E04846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A725CC881F3023ED00E04846 /* Build configuration list for PBXNativeTarget "SocialMediasimilarapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A725CC891F3023ED00E04846 /* Debug */,
+				A725CC8A1F3023ED00E04846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A725CC6E1F3023ED00E04846 /* Project object */;
+}

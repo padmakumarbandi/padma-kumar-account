@@ -1,0 +1,6 @@
+framework module Pods_facebooklikeapp {
+  umbrella header "Pods-facebooklikeapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

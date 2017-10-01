@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key></key>
+	<string></string>
+	<key>FirebaseAppDelegate</key>
+	<string></string>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>504275132602-1ifvhlht5dka8tnae678fhalr45r3ivr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.504275132602-1ifvhlht5dka8tnae678fhalr45r3ivr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDbwYdAs5u7lRqLve_P-XbMKs54u5_Nvxw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>504275132602</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>SmartWorks.facebooklikeapp</string>
+	<key>PROJECT_ID</key>
+	<string>facebokapp-537ff</string>
+	<key>STORAGE_BUCKET</key>
+	<string>facebokapp-537ff.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:504275132602:ios:a1731f2dd0359ee2</string>
+	<key>DATABASE_URL</key>
+	<string>https://facebokapp-537ff.firebaseio.com</string>
+</dict>
+</plist>
